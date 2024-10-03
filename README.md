@@ -8,7 +8,8 @@ Beberapa langkah umum dalam EDA meliputi:
 * Pembersihan Data: Mengidentifikasi dan menangani nilai yang hilang, outlier, atau kesalahan dalam data.
 * Pemeriksaan Asumsi: Menilai apakah data memenuhi asumsi-asumsi yang diperlukan untuk analisis statistik lebih lanjut.
 
-Proses EDA dengan menggunakan data set berikut "/content/top250_anime.csv"
+Proses EDA dengan menggunakan data set berikut "https://www.kaggle.com/datasets/gianinamariapetrascu/top-250-anime-2023"
+
 ## 1. Load Data
 ```sh
 import pandas as pd
