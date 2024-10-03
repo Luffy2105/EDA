@@ -135,7 +135,9 @@ corr_matrix = df.select_dtypes('number').corr()
 sns.heatmap(corr_matrix, annot=True, cmap='coolwarm')
 plt.title('Heatmap of Correlation Matrix')
 plt.show()
+```
 
+```sh
 # Scatter plot Score vs Popularity
 plt.figure(figsize=(8, 4))
 sns.scatterplot(data=df, x='Popularity', y='Score', color='blue')
