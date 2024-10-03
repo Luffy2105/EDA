@@ -193,19 +193,3 @@ plt.show()
 correlation_episodes_duration = df['Episodes'].corr(df['Duration'])
 print(f'Korelasi antara Episodes dan Duration: {correlation_episodes_duration}')
 ```
-
-```sh
-
-# Menghitung rata-rata popularitas berdasarkan tipe
-avg_popularity_type = df.groupby('Type')['Popularity'].mean().sort_values(ascending=False)
-print(avg_popularity_type)
-
-# Visualisasi
-plt.figure(figsize=(8, 4))
-sns.barplot(x=avg_popularity_type.index, y=avg_popularity_type.values, palette='Set2')
-plt.title('Rata-rata Popularitas Berdasarkan Tipe')
-plt.xlabel('Tipe')
-plt.ylabel('Rata-rata Popularitas')
-plt.grid()
-plt.show()
-```
