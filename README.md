@@ -16,7 +16,6 @@ df
 ```
 
 ## 2. Basic infornation about the dataset
-input
 ```sh
 # Menampilkan 5 baris pertama dari dataset
 print(df.head())
@@ -32,7 +31,6 @@ print(df.columns.tolist())
 ```
 
 ## 3. cek nilai duplikat dan nilai unik
-input
 ```sh
 duplicates = df.duplicated().sum()
 print(duplicates)
@@ -42,7 +40,6 @@ print(unique)
 ```
 
 ## 4. Visualisakan jumlah nilai unik
-input
 ```sh
 # Type - Bar Plot
 plt.figure(figsize=(8, 4))
@@ -63,14 +60,12 @@ plt.show()
 ```
 
 ## 5. Menemukan semua null values
-input
 ```sh
 # Memeriksa nilai yang hilang
 print(df.isnull().sum())
 ```
 
 ## 6. Reaplace semua null values
-input
 ```sh
 data_dropped = df.dropna(inplace=True)
 
@@ -79,13 +74,11 @@ data_after_cleaning
 ```
 
 ## 7. Mengetahui tipe data
-input
 ```sh
 print(df.dtypes)
 ```
 
 ## 8. filter data
-input
 ```sh
 
 # Flter berdasarkan genre
@@ -105,7 +98,6 @@ popular_anime
 ```
 
 ## 9. Membuat box plot
-input
 ```sh
 
 # Score berdasarkan Type
@@ -133,7 +125,6 @@ plt.show()
 ```
 
 ## 10. Korelasi
-input
 ```sh
 
 # Mengatur ukuran figure
