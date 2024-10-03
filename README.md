@@ -150,6 +150,9 @@ plt.show()
 # Menghitung korelasi
 correlation_score_popularity = df['Score'].corr(df['Popularity'])
 print(f'Korelasi antara Score dan Popularity: {correlation_score_popularity}')
+```
+
+```sh
 
 # Scatter plot Episodes vs Duration
 plt.figure(figsize=(8, 4))
@@ -163,6 +166,9 @@ plt.show()
 # Menghitung korelasi
 correlation_episodes_duration = df['Episodes'].corr(df['Duration'])
 print(f'Korelasi antara Episodes dan Duration: {correlation_episodes_duration}')
+```
+
+```sh
 
 # Menghitung rata-rata popularitas berdasarkan tipe
 avg_popularity_type = df.groupby('Type')['Popularity'].mean().sort_values(ascending=False)
