@@ -136,6 +136,7 @@ sns.heatmap(corr_matrix, annot=True, cmap='coolwarm')
 plt.title('Heatmap of Correlation Matrix')
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/31282815-731c-4e94-bbb1-d96acaff2626)
 
 ```sh
 # Scatter plot Score vs Popularity
