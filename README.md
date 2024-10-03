@@ -9,7 +9,6 @@ Beberapa langkah umum dalam EDA meliputi:
 * Pemeriksaan Asumsi: Menilai apakah data memenuhi asumsi-asumsi yang diperlukan untuk analisis statistik lebih lanjut.
 
 ## 1. Load Data
-input
 ```sh
 import pandas as pd
 df = pd.read_csv("/content/top250_anime.csv")
