@@ -70,9 +70,6 @@ plt.grid()
 plt.show()
 ```
 
-![image](https://github.com/user-attachments/assets/29d5e322-c02d-45ff-8866-7d0bb32b8abf)
-
-
 ## 5. Menemukan semua null values
 
 ```sh
