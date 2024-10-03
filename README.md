@@ -15,6 +15,8 @@ Proses EDA dengan menggunakan data set berikut "https://www.kaggle.com/datasets/
 
 ```sh
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 df = pd.read_csv("/content/top250_anime.csv")
 df
 ```
