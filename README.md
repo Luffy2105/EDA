@@ -112,7 +112,10 @@ plt.xlabel('Tipe')
 plt.ylabel('Skor')
 plt.grid()
 plt.show()
+```
+![image](https://github.com/user-attachments/assets/878ae082-acac-466b-b08b-49274eaeacac)
 
+```sh
 # Menentukan genre yang ingin ditampilkan
 genres = ['Action', 'Drama', 'Fantasy']
 
