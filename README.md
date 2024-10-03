@@ -3,7 +3,7 @@ EDA atau Exploratory Data Analysis adalah pendekatan dalam analisis data yang be
 
 Beberapa langkah umum dalam EDA meliputi:
 
-Visualisasi Data: Menggunakan grafik seperti histogram, scatter plot, atau box plot untuk melihat distribusi dan hubungan antar variabel.
+*Visualisasi Data: Menggunakan grafik seperti histogram, scatter plot, atau box plot untuk melihat distribusi dan hubungan antar variabel.
 Statistik Deskriptif: Menghitung ukuran-ukuran seperti mean, median, modus, varians, dan standar deviasi untuk memahami karakteristik data.
 Pembersihan Data: Mengidentifikasi dan menangani nilai yang hilang, outlier, atau kesalahan dalam data.
 Pemeriksaan Asumsi: Menilai apakah data memenuhi asumsi-asumsi yang diperlukan untuk analisis statistik lebih lanjut.
