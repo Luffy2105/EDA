@@ -148,6 +148,22 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/31282815-731c-4e94-bbb1-d96acaff2626)
 
 ```sh
+
+correlation_score_Duration = df['Score'].corr(df['Duration'])
+print(f'Korelasi antara Score dan Duration: {correlation_score_Duration}')
+
+# Membuat matriks korelasi untuk visualisasi heatmap
+correlation_matrix = df[['Score', 'Duration']].corr()
+
+# Membuat heatmap
+plt.figure(figsize=(6, 5))
+sns.heatmap(correlation_matrix, annot=True, fmt=".2f", cmap='coolwarm', square=True, cbar_kws={"shrink": .8})
+plt.title('correlation_score_Duration')
+plt.show()
+```
+
+```sh
+
 # Scatter plot Score vs Popularity
 plt.figure(figsize=(8, 4))
 sns.scatterplot(data=df, x='Popularity', y='Score', color='blue')
