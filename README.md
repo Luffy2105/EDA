@@ -48,9 +48,10 @@ plt.title('Count of Types')
 plt.xlabel('Type')
 plt.ylabel('Count')
 plt.show()
-
+```
 ![image](https://github.com/user-attachments/assets/3cc417ba-ba00-46c6-b9ee-39bcf27ca8d2)
 
+```sh
 # Popularity - Histogram
 plt.figure(figsize=(8, 4))
 plt.hist(df['Popularity'], bins=20, color='green', alpha=0.7)
@@ -60,7 +61,9 @@ plt.ylabel('Frequency')
 plt.grid()
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/29d5e322-c02d-45ff-8866-7d0bb32b8abf)
 
+```sh
 ## 5. Menemukan semua null values
 ```sh
 # Memeriksa nilai yang hilang
