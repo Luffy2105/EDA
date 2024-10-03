@@ -10,7 +10,9 @@ Beberapa langkah umum dalam EDA meliputi:
 
 Proses EDA dengan menggunakan data set berikut "https://www.kaggle.com/datasets/gianinamariapetrascu/top-250-anime-2023"
 
+
 ## 1. Load Data
+
 ```sh
 import pandas as pd
 df = pd.read_csv("/content/top250_anime.csv")
@@ -18,6 +20,7 @@ df
 ```
 
 ## 2. Basic infornation about the dataset
+
 ```sh
 # Menampilkan 5 baris pertama dari dataset
 print(df.head())
@@ -33,6 +36,7 @@ print(df.columns.tolist())
 ```
 
 ## 3. cek nilai duplikat dan nilai unik
+
 ```sh
 duplicates = df.duplicated().sum()
 print(duplicates)
@@ -42,6 +46,7 @@ print(unique)
 ```
 
 ## 4. Visualisakan jumlah nilai unik
+
 ```sh
 # Type - Bar Plot
 plt.figure(figsize=(8, 4))
@@ -53,6 +58,7 @@ plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/3cc417ba-ba00-46c6-b9ee-39bcf27ca8d2)
 
+
 ```sh
 # Popularity - Histogram
 plt.figure(figsize=(8, 4))
@@ -63,15 +69,19 @@ plt.ylabel('Frequency')
 plt.grid()
 plt.show()
 ```
+
 ![image](https://github.com/user-attachments/assets/29d5e322-c02d-45ff-8866-7d0bb32b8abf)
 
+
 ## 5. Menemukan semua null values
+
 ```sh
 # Memeriksa nilai yang hilang
 print(df.isnull().sum())
 ```
 
 ## 6. Reaplace semua null values
+
 ```sh
 data_dropped = df.dropna(inplace=True)
 
@@ -80,11 +90,13 @@ data_after_cleaning
 ```
 
 ## 7. Mengetahui tipe data
+
 ```sh
 print(df.dtypes)
 ```
 
 ## 8. filter data
+
 ```sh
 
 # Flter berdasarkan genre
@@ -104,6 +116,7 @@ popular_anime
 ```
 
 ## 9. Membuat box plot
+
 ```sh
 
 # Score berdasarkan Type
@@ -116,6 +129,7 @@ plt.grid()
 plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/878ae082-acac-466b-b08b-49274eaeacac)
+
 
 ```sh
 # Menentukan genre yang ingin ditampilkan
@@ -134,6 +148,7 @@ plt.show()
 ```
 
 ## 10. Korelasi
+
 ```sh
 
 # Mengatur ukuran figure
@@ -146,6 +161,7 @@ plt.title('Heatmap of Correlation Matrix')
 plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/31282815-731c-4e94-bbb1-d96acaff2626)
+
 
 ```sh
 
