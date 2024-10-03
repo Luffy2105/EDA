@@ -190,6 +190,8 @@ plt.show()
 correlation_score_popularity = df['Score'].corr(df['Popularity'])
 print(f'Korelasi antara Score dan Popularity: {correlation_score_popularity}')
 ```
+![image](https://github.com/user-attachments/assets/36f80916-8fcf-43ab-aa1e-65c3e0f3dd08)
+
 
 ```sh
 
